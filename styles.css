@@ -6,13 +6,15 @@
     --Light-grayish-cyan: hsl(185, 41%, 84%);
     --Very-light-grayish-cyan: hsl(189, 41%, 97%);
     --White: hsl(0, 0%, 100%);
+
 }
-
-
 
 body{
     background-color: var(--Light-grayish-cyan);
     padding: 260px;
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        font-style: normal;
 }
 
 main{
@@ -24,17 +26,15 @@ main{
 
 #billing{
     color: var(--Grayish-cyan);
-    padding:42px ;
-
+    padding: 46px;
 }
 
 #billing button{
     background-color: var(--Very-dark-cyan);
     color: var(--White);
     min-width: 117px;
-    min-height: 48px;
+    padding: 14px;
     border-radius: 10%;
-
 }
 
 #billing-info{
@@ -44,15 +44,12 @@ main{
     max-width: 379px;
     min-height: 78px;
 }
+
 #billing-info input{
     padding: 6px;
     border: none;
     background-color: var(--Very-light-grayish-cyan);
 }
-
-
-
-
 
 #total{
 
@@ -74,6 +71,17 @@ main{
     border-radius: 10%;
     border:none;
 }
+
+#tip-info-options button{
+    padding: 14px;
+}
+
+
+#tip-info label{
+    display: none;
+}
+
+
 #num-people{
     min-width: 379px;
     max-width: 379px;
