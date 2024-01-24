@@ -1,0 +1,91 @@
+:root{
+    --Strong-cyan: hsl(172, 67%, 45%);
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+
+
+body{
+    background-color: var(--Light-grayish-cyan);
+    padding: 260px;
+}
+
+main{
+    background-color: var(--White);
+    display: flex;
+    min-width: 920px;
+    min-height: 481px;
+}
+
+#billing{
+    color: var(--Grayish-cyan);
+    padding:42px ;
+
+}
+
+#billing button{
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    min-width: 117px;
+    min-height: 48px;
+    border-radius: 10%;
+
+}
+
+#billing-info{
+    display: flex;
+    flex-direction: column;
+    min-width: 379px;
+    max-width: 379px;
+    min-height: 78px;
+}
+#billing-info input{
+    padding: 6px;
+    border: none;
+    background-color: var(--Very-light-grayish-cyan);
+}
+
+
+
+
+
+#total{
+
+    padding:42px ;
+}
+
+#tip-info{
+    min-width: 379px;
+    display: flex;
+    flex-direction: column;
+    max-width: 379px;
+    min-height: 78px;
+}
+
+#tip-info input{
+    max-width: 117px;
+    min-width: 117px;
+    min-height: 48px;
+    border-radius: 10%;
+    border:none;
+}
+#num-people{
+    min-width: 379px;
+    max-width: 379px;
+    min-height: 78px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#num-people input{
+    min-width: 379px;
+    padding-top: 6px;
+    border: none;
+    background-color: var(--Very-light-grayish-cyan);
+}
