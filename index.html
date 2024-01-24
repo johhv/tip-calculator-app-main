@@ -15,11 +15,11 @@
     window.dataLayer = window.dataLayer || [];
   </script>
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-XXXXXX');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MLW4T7CP');</script>
   <!-- End Google Tag Manager -->
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -28,6 +28,10 @@
   </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLW4T7CP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <main>
     <div id="billing">
       <div id="billing-info">
@@ -41,10 +45,10 @@
         <div id="tip-info-options">
 
         <button onclick="dataLayer.push({'event':'add 5%'})">5%</button>
-        <button>10%</button>
-        <button>15%</button>
-        <button>25%</button>
-        <button>50%</button>
+        <button onclick="dataLayer.push({'event':'add 10%'})">10%</button>
+        <button onclick="dataLayer.push({'event':'add 15%'})">15%</button>
+        <button onclick="dataLayer.push({'event':'add 25%'})">25%</button>
+        <button onclick="dataLayer.push({'event':'add 50%'})">50%</button>
           <label for="custom-billing">custom</label>
           <input type="number" placeholder="Custom" id="custom-billing" >
         </div>
